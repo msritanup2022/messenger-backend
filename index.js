@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const passport = require("passport");
+require("dotenv").config();
 const cors = require("cors");
 const LocalStrategy = require("passport-local").Strategy;
 const jwt = require("jsonwebtoken");
